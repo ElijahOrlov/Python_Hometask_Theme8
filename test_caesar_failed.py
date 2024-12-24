@@ -1,7 +1,7 @@
 from caesar_cypher import Caesar
 
 
-def failed_test_caesar():
+def test_caesar_failed():
     """
     Не валидная проверка на корректную зашифровку и последующую расшифровку текста со сдвигом 15
     """
@@ -13,6 +13,3 @@ def failed_test_caesar():
     assert check_encrypted_text == encrypted_text, f"Ошибка: зашифрованный текст: '{check_encrypted_text}' != '{encrypted_text}'"
     assert check_decrypted_text == decrypted_text, f"Ошибка: расшифрованный текст: '{check_decrypted_text}' != '{decrypted_text}'"
     print("All tests PASSED")
-
-
-failed_test_caesar()
