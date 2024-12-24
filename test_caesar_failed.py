@@ -12,4 +12,3 @@ def test_caesar_failed():
     check_decrypted_text = caesar.decode(check_encrypted_text)
     assert check_encrypted_text == encrypted_text, f"Ошибка: зашифрованный текст: '{check_encrypted_text}' != '{encrypted_text}'"
     assert check_decrypted_text == decrypted_text, f"Ошибка: расшифрованный текст: '{check_decrypted_text}' != '{decrypted_text}'"
-    print("All tests PASSED")

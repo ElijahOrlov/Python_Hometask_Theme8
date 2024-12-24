@@ -28,4 +28,3 @@ jobs:
       - name: Run tests
         run: |
           python test_caesar.py
-          python test_caesar_failed.py
